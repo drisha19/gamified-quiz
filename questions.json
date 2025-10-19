@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "question": "Which HTML element is used to define the main content area unique to a document?",
+    "options": ["&lt;section&gt;", "&lt;main&gt;", "&lt;body&gt;", "&lt;div&gt;"],
+    "answerIndex": 1,
+    "explanation": "The &lt;main&gt; element represents the dominant content of the document and there should be only one per page."
+  },
+  {
+    "id": 2,
+    "question": "Which CSS property controls the space between an element's border and its content?",
+    "options": ["margin", "padding", "border-spacing", "gap"],
+    "answerIndex": 1,
+    "explanation": "Padding is the space inside the border; margin is the space outside the border."
+  },
+  {
+    "id": 3,
+    "question": "What does DOM stand for?",
+    "options": ["Document Object Model", "Data Order Model", "Display Object Map", "Document Output Module"],
+    "answerIndex": 0,
+    "explanation": "DOM stands for Document Object Model — a tree-like representation of page content used by JavaScript."
+  },
+  {
+    "id": 4,
+    "question": "Which HTML attribute provides alternate text for images for accessibility?",
+    "options": ["title", "alt", "src", "aria-label"],
+    "answerIndex": 1,
+    "explanation": "The alt attribute provides a text alternative for images; screen readers announce it when images can't be seen."
+  },
+  {
+    "id": 5,
+    "question": "Which JavaScript method removes the last element from an array?",
+    "options": ["shift()", "pop()", "push()", "splice()"],
+    "answerIndex": 1,
+    "explanation": "pop() removes and returns the last element of an array."
+  },
+  {
+    "id": 6,
+    "question": "Which CSS property sets the text color?",
+    "options": ["text-color", "font-color", "color", "foreground"],
+    "answerIndex": 2,
+    "explanation": "The color property sets the color of text in CSS."
+  },
+  {
+    "id": 7,
+    "question": "Which HTML5 doctype is correct?",
+    "options": ["&lt;!DOCTYPE html&gt;", "&lt;!DOCTYPE HTML5&gt;", "&lt;DOCTYPE html&gt;", "&lt;!DOCTYPE html PUBLIC&gt;"],
+    "answerIndex": 0,
+    "explanation": "HTML5 uses the simple declaration: &lt;!DOCTYPE html&gt;."
+  },
+  {
+    "id": 8,
+    "question": "In CSS Flexbox, which property controls alignment along the main axis?",
+    "options": ["align-items", "justify-content", "flex-direction", "align-content"],
+    "answerIndex": 1,
+    "explanation": "justify-content aligns items along the main axis (e.g., left/center/right). align-items is cross-axis."
+  },
+  {
+    "id": 9,
+    "question": "What will typeof null return in JavaScript?",
+    "options": ["'null'", "'object'", "'undefined'", "'number'"],
+    "answerIndex": 1,
+    "explanation": "Due to a historical JavaScript quirk, typeof null returns 'object'."
+  },
+  {
+    "id": 10,
+    "question": "Which input type should be used for phone numbers in HTML?",
+    "options": ["phone", "tel", "number", "text"],
+    "answerIndex": 1,
+    "explanation": "Use type=\"tel\" for telephone numbers; there is no 'phone' type."
+  }
+]

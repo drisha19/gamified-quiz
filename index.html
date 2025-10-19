@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gamifies Quiz — Frontend Developer Task</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container" id="app">
+    <!-- Header / Brand -->
+    <header class="header">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Brand logo" class="brand-logo" />
+        <div class="brand-text">
+          <h1>Gamified Quiz</h1>
+          <p class="lead">Responsive • Accessible • Interactive</p>
+        </div>
+      </div>
+      <img src="assets/mascot.png" alt="" class="mascot" aria-hidden="true" />
+    </header>
+
+     <!-- 🕹️ GAMIFICATION BAR -->
+    <div class="gamebar">
+      <div class="level">🏆 Level: <span id="levelText">Bronze</span></div>
+      <div class="streak">🔥 Streak: <span id="streakCount">0</span></div>
+      <div class="badge">🏅 Badge: <span id="badgeText">None</span></div>
+    </div>
+
+
+    <!-- Progress / meta -->
+    <div class="progress-wrap" aria-hidden="false">
+      <div class="progress" aria-hidden="true" aria-label="Progress">
+        <div id="progressBar" class="progress-bar" style="width:0%"></div>
+      </div>
+      <div class="q-meta">
+        <div id="counter">Question 0 of 0</div>
+        <div id="score" aria-live="polite">Score: 0</div>
+      </div>
+    </div>
+
+    <!-- Quiz area (rendered by JS) -->
+    <section id="quizArea" class="quiz" aria-live="polite"></section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      Developed by <strong>DRISHA P</strong> | Frontend Developer Intern Task @ KonnichiWow
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
